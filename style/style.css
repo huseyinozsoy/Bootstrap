@@ -1,0 +1,426 @@
+hmtl,
+body,
+#cover {
+	height: 100%;
+}
+
+#cover {
+	background : url("../images/main.jpg") no-repeat center center fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+
+}
+.fixed-top {
+	max-width: 1140px;
+	margin: 20px auto;
+	transition: 0.2s all linear;
+}
+
+div>div>h1{
+	margin-top: 20%;
+	color:white;
+	font-size: 40px	;
+	/*font-family: 'Karla', sans-serif;*/
+	font-family: 'Arvo', serif;
+	font-style: italic;
+	margin-bottom: 30px;
+}
+div>div>h2{
+	color:white;
+	font-size:75px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	margin-bottom: 30px;
+}
+div>div>a>.btn-primary{
+	background-color: #fed136;
+	border:none;
+	text-transform: uppercase;/*Butonda ki yazıyı büyük harfle yazmak için*/
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+	padding: 20px 40px;
+	
+}
+
+div>div>a>.btn-primary:hover{
+	color: #fed136;
+	background-color: #ffffff;
+}
+a.nav-link{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	color:#ffffff !important;
+	transition: color 0.5s ease;
+	-webkit-transition: color 0.5s ease;
+	-moz-transition: color 0.5s ease;
+	-o-transition: color 0.5s ease;
+}
+
+a.nav-link:hover{
+	color:#fed136 !important;
+}
+
+/* Section Services */
+#services{
+	padding-top: 140px;
+	padding-bottom: 140px;
+}
+.services-top h3{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 40px;
+}
+.services-top p{
+	font-family: 'Arvo', serif;
+	font-style: italic;
+	font-size: 16px;
+	color: #777;
+	margin-bottom: 70px;
+}
+.item-circle{
+	border: 3px solid #fed136;
+	width: 100px;
+	height: 100px;
+	border-radius: 200px;
+	margin: 0 auto;
+}
+.services-content h4{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+	margin-top: 25px;
+}
+.services-content p{
+	font-family: 'Arvo', serif;
+	font-style: italic;
+	font-size: 15px;
+	color: #777;
+}
+
+/* Section Portfolio */
+
+#portfolio{
+	background-color: #f7f7f7;
+	padding-top: 140px;
+	padding-bottom: 90px;
+}
+.portfolio-top h3{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 40px;
+}
+.portfolio-top p{
+	font-family: 'Arvo', serif;
+	font-style: italic;
+	font-size: 16px;
+	color: #777;
+	margin-bottom: 70px;
+}
+div>div>div>.card{
+	border-style: none;
+}
+.portfolio-content .row{
+	margin-bottom: 50px;
+}
+
+.portfolio-content .card-title{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+}
+.portfolio-content .card-subtitle{
+	font-family: 'Arvo', serif;
+	font-style: italic;
+	font-size: 14px;
+}
+
+/*Section AboutUs*/
+.aboutUs-top h3{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 40px;
+}
+.aboutUs-top p{
+	font-family: 'Arvo', serif;
+	font-style: italic;
+	font-size: 16px;
+	color: #777;
+	margin-bottom: 70px;
+}
+#aboutUs{
+	/*padding: 120px 0;*/
+	padding-top: 120px;
+	padding-bottom: 30px;
+}
+.aboutUs-content .row{
+	margin-bottom: 90px;
+}
+.aboutUs-content h4{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+}
+.aboutUs-content p{
+	font-family: 'Arvo', serif;
+	font-style: italic;
+	font-size: 16px;
+	color: #777;
+	margin-bottom: 70px;
+}
+.aboutUs-content {
+	position: relative;
+}
+.aboutUs-content:before{
+	top:0;
+	bottom: 40;
+	position: absolute;
+	content: " ";
+	width: 4px;
+	background-color: #f1f1f1;
+	left: 50%;
+	margin-left: -2px;
+}
+.about-circle{
+	position: relative;
+}
+.about-circle:before{
+	top:-10;
+	bottom: 0;
+	position: absolute;
+	content: " ";
+	left: 50%;
+	border-radius: 176px;
+	background-color: #fed136;
+	width: 176px;
+	height: 176px;
+	margin-left: -91.5px;
+	border:7px solid #f1f1f1;
+}
+.about-circle .yellow-text{
+	position: relative;
+	/*Z-index : yazının daha üsttegörünmesini sağlar(Önde gözükmesi);*/
+	z-index: 1;
+	padding-top: 25px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	color: white;
+}
+/*Section team*/
+#team{
+	padding-top: 90px;
+	padding-bottom: 90px;
+	background-color: #f9f9f9;
+}
+.team-top h4{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 40px;
+}
+.team-top p{
+	font-family: 'Arvo', serif;
+	font-style: italic;
+	font-size: 16px;
+	color: #777;
+	margin-bottom: 70px;
+}
+
+.team-content h4{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+}
+.team-content h5{
+	font-family: 'Arvo', serif;
+	font-style: italic;
+	font-size: 16px;
+	color: #777;
+}
+.social-icons{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.social-icon{
+	display: inline;
+	padding-left: 5px;
+	padding-right: 5px;
+	border:2px solid #000;
+	width: 30px;
+	height: 30px;
+	border-radius: 30px;
+	margin:0 auto;
+	line-height: 26px;
+}
+.team-content p{
+	font-family: 'Arvo', serif;
+	font-style: italic;
+	font-size: 16px;
+	color: #777;
+	margin: 50px auto;
+}
+/*Section partner*/
+#partner{
+	padding-top: 65px;
+	padding-bottom: 65px;
+}
+/*Section contact*/
+#contact{
+	background: url("../images/contact.png") no-repeat center center fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	padding: 120px 0;
+}
+.contact-top  p{
+	font-family: 'Arvo', serif;
+	font-style: italic;
+	font-size: 16px;
+	color: #777;
+	margin-bottom: 70px;
+}
+
+.contact-top  h3{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 40px;
+	color:#ffffff;
+}
+#name, #email, #subject{
+	width: 90%;
+	height: 50px;
+	margin-bottom: 26px;
+	border-style: none;
+	border-radius: 3px;
+	padding-left: 20px;
+	margin-left: 5%;
+}
+#message{
+	width: 90%;
+	height: 205px;
+	margin-bottom: 26px;
+	padding-left: 20px;
+	border-style: none;
+	border-radius: 3px;
+	padding-top: 10px;
+	margin-left: 5%;
+}
+.golden-form-element{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+}
+#footer{
+	padding: 20px 0;
+}
+#footer p{
+	font-family: 'Arvo', serif;
+	font-size: 16px;
+	color: #777;
+	font-weight: 400;
+	line-height: 40px;
+}
+.company-social-icons{
+	list-style: none;
+	margin:0;
+	padding: 0;
+}
+.company-social-icon{
+	display: inline;
+	padding-right: 9px;
+	padding-left: 9px;
+	color:#fff;
+}
+.fixed-top.change-color{
+	margin-top: 0;
+	background-color: rgba(0,0,0,0.7);
+	max-width: 2000px;
+}
+.fixed-top.change-fix-top{
+	margin-top: 0;
+	background-color: #000;
+	max-width: 2000px
+}
+
+/* Media Queries */
+@media (max-width: 992px) { 
+	#footer p{
+		font-family: 'Arvo', serif;
+		font-size: 12px;
+		color: #777;
+		font-weight: 500;
+		line-height: 40px;
+	}
+	.company-social-icon{
+		display: inline;
+		padding-right: 1px;
+		padding-left: 1px;
+		color:#fff;
+		width: 30px;
+		height: 30px;
+		border-radius: 30px;
+	}
+}
+
+@media (max-width: 768px) { 
+	.navbar-collapse{
+		background-color: rgba(0,0,0,0.3);
+	}
+	.navbar-toggler{
+		border:2px solid #fed136 !important;
+	}
+	div>div>h1{
+		margin-top: 50%;
+		color:white;
+		font-size: 30px	;
+		/*font-family: 'Karla', sans-serif;*/
+		font-family: 'Arvo', serif;
+		font-style: italic;
+		margin-bottom: 30px;
+	}
+	div>div>h2{
+		color:white;
+		font-size:55px;
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 700;
+		margin-bottom: 30px;
+	}
+	.card{
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+	.aboutUs-content:before{
+		content: " ";
+		width: 0;
+	}
+	#aboutUs{
+		padding-bottom: 0;
+	}
+ }
+
+
+@media (max-width: 576px) { 
+	div>div>h1{
+		margin-top: 50%;
+		color:white;
+		font-size: 20px	;
+		/*font-family: 'Karla', sans-serif;*/
+		font-family: 'Arvo', serif;
+		font-style: italic;
+		margin-bottom: 20px;
+	}
+	div>div>h2{
+		color:white;
+		font-size:40px;
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 700;
+		margin-bottom: 20px;
+	}
+}
+
+
+
